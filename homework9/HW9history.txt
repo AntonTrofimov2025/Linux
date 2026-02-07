@@ -1,0 +1,8 @@
+   0 touch myfirstbashscript.sh
+   1 chmod 711 myfirstbashscript.sh 
+   2 pwd
+   3 export USER=ANTON
+   4 ls -la
+   5 vi myfirstbashscript.sh 
+   6 ./myfirstbashscript.sh 
+   7 history >> HW9history.txt
