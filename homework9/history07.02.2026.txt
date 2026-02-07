@@ -1,0 +1,25 @@
+  997  pwd
+  998  touch mysecondbashscript.sh
+  999  chmod 711 mysecondbashscript.sh 
+ 1000  ls -la
+ 1001  export USER=ANTON
+ 1002  env
+ 1003  vi mysecondbashscript.sh 
+ 1004  sudo ./mysecondbashscript.sh 
+ 1005  sudo mv mysecondbashscript.sh /opt/121225-ptm/trofimov/
+ 1006  cd /opt/121225-ptm/trofimov/
+ 1007  pwd
+ 1008  ls -la
+ 1009  ./mysecondbashscript.sh 
+ 1010  vi mysecondbashscript.sh 
+ 1011  ./mysecondbashscript.sh 
+ 1012  ps -ef
+ 1013  ps -ef | grep bioset
+ 1014  ps -ef | grep "bioset" | wc -l
+ 1015  ps -ef | grep "bioset" | grep -v "grep" | wc -l
+ 1016  vi mysecondbashscript.sh 
+ 1017  ./mysecondbashscript.sh 
+ 1018  vi mysecondbashscript.sh 
+ 1019  ./mysecondbashscript.sh 
+ 1020  history
+ 1021  history | tail -25 >> history07.02.2026.txt
