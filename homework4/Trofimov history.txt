@@ -1,0 +1,17 @@
+   0 cd /
+   1 date +%D > newfile | date >> newfile
+   2 cat newfile
+   3 df -h | grep -w / >> newfile
+   4 cat newfile
+   5 history | tail -3 >> newfile
+   6 cat newfile
+   7 cat /etc/passwd | grep "cron" >> newfile
+   8 cat newfile
+   9 cat /etc/group | grep "root" | wc -l >> newfile
+  10 cat newfile
+  11 vi newfile
+  12 cat newfile
+  13 export_file newfile
+  14 history >> /tmp/history.txt %% export_file /tmp/history.txt
+  15 history >> /tmp/history.txt && export_file /tmp/history.txt
+  16 history > /tmp/history.txt && export_file /tmp/history.txt

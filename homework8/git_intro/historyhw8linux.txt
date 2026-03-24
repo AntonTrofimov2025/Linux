@@ -1,0 +1,20 @@
+  262  ls -l
+  263  mkdir homeworks
+  264  rm homeworks
+  265  mv homeworks homework8
+  266  ls -l
+  267  cd homeworks
+  268  cd homework8/
+  269  mkdir git_intro
+  270  cd git_intro/
+  271  git init
+  272  git add SüßeKatzen.jpg
+  273  git status 
+  274  git log
+  275  git commit -m "Добавил фото котиков для 8-го задания :)"
+  276  git log
+  277  git branch -M main
+  278  git remote add origin git@github.com:AntonTrofimov2025/git_intro.git
+  279  git push -u origin main
+  280  history
+  281  history | tail -20 >> historyhw8linux.txt

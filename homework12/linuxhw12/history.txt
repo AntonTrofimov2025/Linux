@@ -1,0 +1,24 @@
+  447  git clone git@github.com:AntonTrofimov2025/linuxhw12.git
+  448  pwd
+  449  cd linuxhw12/
+  450  ls -la
+  451  git checkout -b feature
+  452  vi README.md
+  453  ls -la
+  454  git commit -m "Additionally added README.md file to already existed .gitignore"
+  455  git add ./README.md
+  456  git commit -m "Additionally added README.md file to already existed .gitignore"
+  457  git log
+  458  git status
+  459  git push
+  460  git push feature
+  461  git push origin feature
+  462  git commit --amend
+  463  git log
+  464  git switch main
+  465  git merge feature
+  466  history > history.txt
+  467  ls -la
+  468  git add ./history.txt 
+  469  git commit -m "Added history.txt file"
+  470  git push

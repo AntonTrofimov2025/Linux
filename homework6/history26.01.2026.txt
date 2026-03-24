@@ -1,0 +1,59 @@
+  572  ls -l
+  573  cd /opt/
+  574  ls
+  575  export ANTON_VARIABLE=121225-ptm
+  576  pwd
+  577  cd 121225-ptm/trofimov/
+  578  touch .process_management
+  579  echo +%D > .process_management
+  580  echo date > .process_management
+  581  echo +%D > .process_management
+  582  echo date >> .process_management
+  583  cat .process_management
+  584  date +%D > .process_management
+  585  date >> .process_management
+  586  cat .process_management
+  587  vi .process_management
+  588  cat .process_management
+  589  env
+  590  pwd
+  591  ls
+  592  ls -la
+  593  free -m
+  594  free -m >> .process_management
+  595  cat .process_management
+  596  vi .process_management
+  597  cat .process_management
+  598  free -m
+  599  free -m | awk {'$1 $2'}
+  600  free -m | awk {'print $1 $2'}
+  601  free -m >> .process_management
+  602  cat .process_management
+  603  vi .process_management
+  604  cat .process_management
+  605  ps -ef
+  606  ps -ef | grep "root"
+  607  wc --help
+  608  ps -ef | grep "root" | wc -l
+  609  echo "В системе запущено процессов под пользователем root: " >> .process_management && ps -ef | grep "root" | wc -l >> .process_management
+  610  cat .process_management
+  611  env
+  612  env | tail -12
+  613  env | tail -12 | head -1
+  614  env | tail -12 | head -1 >> .process_management
+  615  cat .process_management
+  616  top
+  617  ps -ef
+  618  ps -ef | grep -w "/usr/sbin/sshd -D"
+  619  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1
+  620  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1 | awk '{print $2}'
+  621  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1 | awk '{print "PID" $2 "PPID" $3}'
+  622  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1 | awk '{print "PID: " $2 "PPID: " $3}'
+  623  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1 | awk '{print "PID: " $2 " PPID: " $3}'
+  624  ps -ef | grep -w "/usr/sbin/sshd -D" | head -1 | awk '{print "PID: " $2 " PPID: " $3}' >> .process_management
+  625  cat .process_management
+  626  history
+  627  history >> /opt/121225-ptm/trofimov/history26.01.2026.txt
+  628  cat /opt/121225-ptm/trofimov/history26.01.2026.txt
+  629  cat /opt/121225-ptm/trofimov/history26.01.2026.txt | tail -55
+  630  cat /opt/121225-ptm/trofimov/history26.01.2026.txt | tail -55 >> history26.01.2026.txt

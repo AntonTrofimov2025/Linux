@@ -1,0 +1,66 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+tmpfs           477M  548K  476M   1% /run
+Скрипт запускается из: /opt/121225-ptm/trofimov
+  994  vi file..txt
+  995  ls -l
+  996  df -h
+  997  df -h | head -4
+  998  df -h | head -4 >> file..txt 
+  999  cat file..txt 
+ 1000  chmod 030 file..txt 
+ 1001  ls -l
+ 1002  mv file..txt /opt/121225-ptm/trofimov/
+ 1003  ls -l
+ 1004  cd /opt/121225-ptm/trofimov/
+ 1005  touch myfirstbashscript.sh
+ 1006  ls -l
+ 1007  chmod 111 myfirstbashscript.sh 
+ 1008  ls -l
+ 1009  export USER=ANTON
+ 1010  env
+ 1011  echo $USER
+ 1012  ls -l
+ 1013  vi myfirstbashscript.sh 
+ 1014  chmod 311 myfirstbashscript.sh 
+ 1015  ls -l
+ 1016  vi myfirstbashscript.sh 
+ 1017  chmod 711 myfirstbashscript.sh 
+ 1018  vi myfirstbashscript.sh 
+ 1019  ls -l
+ 1020  chmod 111 myfirstbashscript.sh 
+ 1021  ls -l
+ 1022  ./myfirstbashscript.sh 
+ 1023  chmod 511 myfirstbashscript.sh 
+ 1024  ./myfirstbashscript.sh 
+ 1025  chmod 711 myfirstbashscript.sh 
+ 1026  vi myfirstbashscript.sh 
+ 1027  chmod 111 myfirstbashscript.sh 
+ 1028  ls -l
+ 1029  ./myfirstbashscript.sh 
+ 1030  chmod 511 myfirstbashscript.sh 
+ 1031  ls -l
+ 1032  ./myfirstbashscript.sh 
+ 1033  chmod 711 myfirstbashscript.sh 
+ 1034  ./myfirstbashscript.sh 
+ 1035  vi myfirstbashscript.sh 
+ 1036  chmod 511 myfirstbashscript.sh 
+ 1037  ./myfirstbashscript.sh 
+ 1038  mv file..txt /tmp
+ 1039  cd /tmp/
+ 1040  ls -l
+ 1041  cd /opt/121225-ptm/trofimov/
+ 1042  ./myfirstbashscript.sh >> /tmp/file..txt 
+ 1043  cd /tmp
+ 1044  chmod 730 file..txt 
+ 1045  cd /opt/121225-ptm/trofimov/
+ 1046  ./myfirstbashscript.sh >> /tmp/file..txt 
+ 1047  cd /tmp
+ 1048  chmod 430 file..txt 
+ 1049  ls -l
+ 1050  cat file..txt 
+ 1051  chmod 730 file..txt 
+ 1052  history
+ 1053  history | tail -62
+ 1054  history | tail -61 >> file..txt 

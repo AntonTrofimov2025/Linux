@@ -1,0 +1,52 @@
+   0 ls
+   1 cd /
+   2 ls
+   3 mkdir /home/animals
+   4 cd home
+   5 ls
+   6 mkdir /home/animals/dogs
+   7 mkdir /home/animals/cats
+   8 mkdir /home/animals/fish
+   9 ls
+  10 tree animals
+  11 touch /home/animals/dogs/pluto
+  12 touch /home/animals/cats/garfield
+  13 touch /home/animals/fish/nemo
+  14 tree animals
+  15 cd /
+  16 touch /tmp/adam.jpg
+  17 cd /tmp
+  18 ls
+  19 mkdir /home/humans/
+  20 cd /
+  21 cd home
+  22 ls
+  23 cp /tmp/adam.jpg /home/humans/
+  24 cd /
+  25 cd home
+  26 tree home
+  27 tree /home
+  28 cd /
+  29 touch /tmp/evA.txt
+  30 cd tmp
+  31 ls
+  32 cd
+  33 --help
+  34 mv --help
+  35 cd tmp
+  36 cd /tmp
+  37 ls
+  38 mv evA.txt /opt/eve.txt
+  39 ls
+  40 cd /opt
+  41 ls
+  42 mv eve.txt /home/humans/
+  43 ls
+  44 cd ..
+  45 cd /home/humans/
+  46 ls
+  47 tree /humans
+  48 tree humans
+  49 cd /
+  50 tree /home
+  51 history > /tmp/history.txt && export_file /tmp/history.txt
